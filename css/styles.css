@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Source Serif Pro', serif;
+    src: url("fonts/fonts.gstatic.com");
+    font-family: 'Cairo', sans-serif;
+    src: url("fonts.googleapis.com");
+}
+
+h1 {
+        font-family: Cairo, Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+        font-size: 3em;
+        color: #073DA7;
+        background-color: rgb(185, 203, 238);
+        position: relative center;
+        margin-top: 0px;
+        padding-left: 650px;
+        padding-bottom:0px;
+}
+.explore {
+    width: 400px;
+    height: 100px;
+    margin-top: 0px;
+    padding-left: 750px;
+    padding-top: 0px;
+}
+
+body {
+    font-family: source serif pro serif, Georgia, 'Times New Roman', Times, serif;
+    font-size: 1 em;
+    color: black;
+}
+
+.logo {
+   margin-bottom:0px;
+   background-color:rgb(185, 203, 238);
+    
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+header {
+    position: relative;
+    background-color:rgb(185, 203, 238); 
+    height: 210px;
+    
+}
+
+
+nav {
+    position:absolute;
+    background-color:rgb(185, 203, 238);
+    color:black;
+    padding-right: 20px;
+
+}
+nav a {
+    display: block;
+    color:black;
+    margin: 30px 20px 30px 20px;
+    font-size:large;
+   
+
+}
+@media  (min-width: 600px) {
+    nav{
+        display: block;
+        position: static;
+    }
+}
+.hamburger-icon {
+    display:none;
+}
+nav a {
+    display: inline-block;
+}
+ 
+.scientistic {
+    background-image:url("../images/homepage.jpg");
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 1000px;
+    margin-top: 0px;
+    margin-left: 600px;
+    
+}
+p {
+    background-image:url("../images/homepage.jpg");
+    position: center;
+}
