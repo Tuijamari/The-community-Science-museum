@@ -43,6 +43,7 @@ header {
     position: relative;
     background-color:rgb(185, 203, 238); 
     height: 210px;
+    margin-bottom: 0%;
     
 }
 
@@ -75,16 +76,46 @@ nav a {
     display: inline-block;
 }
  
-.scientistic {
+
+ .scientistic {
     background-image:url("../images/homepage.jpg");
     background-repeat: no-repeat;
-    width: 700px;
-    height: 1000px;
+    max-width: 600px;
+    max-height:900px;
     margin-top: 0px;
     margin-left: 600px;
     
 }
+
+
 p {
     background-image:url("../images/homepage.jpg");
-    position: center;
+    position:center;
+    max-width:400px;
+    max-height:700px;
+}
+
+.astronaut {
+    background-image:"../images/andrew-ruiz-348421.jpg";
+    max-height: 400px;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+.maur {
+    background-image:"../images/exhibiton maur.jpg";
+    max-height: 400px;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+
+.glasses {
+    background-image:"../images/billetto-editorial-334686.jpg";
+    max-height: 400px;
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.footer{
+    background-image: none;
 }
