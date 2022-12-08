@@ -84,35 +84,35 @@ h1 {
     padding-top: 0px;
     padding-bottom: 20px;
     align-items: center;
-   
-    
-    
 }
+
 
 .scientistic {
     
+    background-size: cover;
     background-repeat: no-repeat;
-    max-width: 600px;
-    max-height:900px;
     margin-top: 0px;
     margin-left: 600px;
     padding-top: 0%;
-}
-p {
-    font-size: xx-large bold;
-    position:center;
-    
+    min-width: 200px;
+    min-height: 500px;
 }
 
 
 .astronaut {
     background-image:"../images/andrew-ruiz-348421.jpg";
-    max-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 100%;
+    
     background-repeat: no-repeat;
     margin: 15px;
 }
 
 .maur {
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image:"../images/exhibiton maur.jpg";
     max-height: 400px;
     background-repeat: no-repeat;
@@ -121,6 +121,8 @@ p {
 
 
 .glasses {
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image:"../images/billetto-editorial-334686.jpg";
     max-height: 400px;
     background-repeat: no-repeat;
@@ -133,6 +135,7 @@ button {
     width: 300px;
     height: 50px;
     border-radius:10px;
+    
 }
 .ticket-button {
     background-color:#B9CBEE;
@@ -150,13 +153,14 @@ button {
     background-color:#D380C3;
 }
 .news-button {
-    display:flex;
+    text-align: center;
     background-color:#E4AD9C;
     width:200px;
     height:25px;
     border-radius: 6px;
 }
 .read-button {
+    text-align: center;
     background-color:#A3E6EC;
     width:200px;
     height:25px;
