@@ -5,23 +5,7 @@
     src: url("fonts.googleapis.com");
 }
 
-h1 {
-        font-family: Cairo, Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
-        font-size: 3em;
-        color: #073DA7;
-        background-color: rgb(185, 203, 238);
-        position: relative center;
-        margin-top: 0px;
-        padding-left: 650px;
-        padding-bottom:0px;
-}
-.explore {
-    width: 400px;
-    height: 100px;
-    margin-top: 0px;
-    padding-left: 750px;
-    padding-top: 0px;
-}
+
 
 body {
     font-family: source serif pro serif, Georgia, 'Times New Roman', Times, serif;
@@ -30,8 +14,8 @@ body {
 }
 
 .logo {
-   margin-bottom:0px;
-   background-color:rgb(185, 203, 238);
+    margin-bottom:0px;
+    background-color:rgb(185, 203, 238);
     
 }
 
@@ -40,60 +24,86 @@ body {
 }
 
 header {
-    position: relative;
-    background-color:rgb(185, 203, 238); 
-    height: 210px;
-    margin-bottom: 0%;
     
+    background-color:rgb(185, 203, 238); 
+    height: 200px;
+    margin-bottom: 0px;
+    display:block flex;
+    align-items: center;
+    padding-bottom: 2em;
 }
 
 
 nav {
-    position:absolute;
-    background-color:rgb(185, 203, 238);
+    position: relative;
     color:black;
-    padding-right: 20px;
-
+    padding-left: 50px;
+    margin-left: 100px;
+    font-size:large bold;
+    
 }
 nav a {
-    display: block;
+    display: inline-block;
     color:black;
     margin: 30px 20px 30px 20px;
-    font-size:large;
-   
-
 }
 @media  (min-width: 600px) {
     nav{
-        display: block;
+        display: block flex;
         position: static;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 .hamburger-icon {
     display:none;
+    
 }
-nav a {
-    display: inline-block;
+#check-box{
+    display: none;
 }
- 
 
- .scientistic {
-    background-image:url("../images/homepage.jpg");
+h1 {
+    font-family: Cairo, Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-size: 3em;
+    color: #073DA7;
+    background-color: rgb(185, 203, 238);
+    position: relative center;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding-left: 100px;
+    display:inline;
+
+}
+.explore {
+    width: 400px;
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 650px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    align-items: center;
+   
+    
+    
+}
+
+.scientistic {
+    
     background-repeat: no-repeat;
     max-width: 600px;
     max-height:900px;
     margin-top: 0px;
     margin-left: 600px;
+    padding-top: 0%;
+}
+p {
+    font-size: xx-large bold;
+    position:center;
     
 }
 
-
-p {
-    background-image:url("../images/homepage.jpg");
-    position:center;
-    max-width:400px;
-    max-height:700px;
-}
 
 .astronaut {
     background-image:"../images/andrew-ruiz-348421.jpg";
@@ -118,4 +128,58 @@ p {
 }
 .footer{
     background-image: none;
+}
+button {
+    width: 300px;
+    height: 50px;
+    border-radius:10px;
+}
+.ticket-button {
+    background-color:#B9CBEE;
+}
+.teacher-button {
+    background-color:#CBC41B;
+}
+.kids-button {
+    background-color:#F89E5D;
+}
+.exhibition-button {
+    background-color:#E1D6CD;
+}
+.events-button {
+    background-color:#D380C3;
+}
+.news-button {
+    display:flex;
+    background-color:#E4AD9C;
+    width:200px;
+    height:25px;
+    border-radius: 6px;
+}
+.read-button {
+    background-color:#A3E6EC;
+    width:200px;
+    height:25px;
+    border-radius: 6px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns:  1fr  2fr 2fr;
+}
+.itme {
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-grow: unset;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.higher-item {
+    margin-top: 0px;
+    margin-bottom:10px;
+    padding-top: 0%;
 }
