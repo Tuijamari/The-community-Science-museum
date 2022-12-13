@@ -5,7 +5,17 @@
     src: url("fonts.googleapis.com");
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+}
 
+.container {
+    display:flex;
+}
+@media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+   }
 
 body {
     font-family: source serif pro serif, Georgia, 'Times New Roman', Times, serif;
@@ -85,6 +95,7 @@ h1 {
     padding-top: 0px;
     padding-bottom: 20px;
     align-items: center;
+    display: flex;
 }
 img {
     display:flex;
@@ -178,8 +189,9 @@ button {
 }
 
 .museum {
-    width: cover;
-    height:fit-content;
+    width: 400px;
+    height:200px;
+    margin-left: 50px;
 }
 
 
@@ -192,9 +204,11 @@ h2 {
 
 p {
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 50px;
     max-width:600px;
     width:300px;
+    position: relative;
+    display: center;
     
 
 }
@@ -267,7 +281,7 @@ p {
     margin: 20px;
 }
 .child {
-    height: 200px;
+    height: 300px;
     width: 700px;
     margin: 20px;
 }
