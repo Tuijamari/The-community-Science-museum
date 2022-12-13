@@ -11,6 +11,7 @@ body {
     font-family: source serif pro serif, Georgia, 'Times New Roman', Times, serif;
     font-size: 1 em;
     color: black;
+   
 }
 
 .logo {
@@ -85,15 +86,34 @@ h1 {
     padding-bottom: 20px;
     align-items: center;
 }
-
+img {
+    display:flex;
+}
+    
 
 .scientistic {
-    width: 600px;
-    height: 900px;
+    background-image:var--(homepage picture),
+    url("/images/homepage.jpg");
     background-repeat: no-repeat;
     margin-top: 0px;
-    margin-left: 600px;
-    padding-top: 0%;
+    max-width: 600px;
+}
+
+
+
+.news-button {
+    text-align:center;
+    background-color:#E4AD9C;
+    width:200px;
+    height:25px;
+    border-radius:6px;
+}
+.read-button {
+    text-align: center;
+    background-color:#A3E6EC;
+    width:200px;
+    height:25px;
+    border-radius: 6px;
 }
 
 
@@ -101,8 +121,8 @@ h1 {
     background-image:"../images/andrew-ruiz-348421.jpg";
     background-size: cover;
     background-repeat: no-repeat;
-    max-height:min-content;
-    width: 100%;
+    max-height:400px;
+    max-width: 100%;
     background-repeat: no-repeat;
     margin: 15px;
 }
@@ -120,7 +140,7 @@ h1 {
 .glasses {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image:"../images/billetto-editorial-334686.jpg";
+    
     max-height: 400px;
     background-repeat: no-repeat;
     margin: 15px;
@@ -129,6 +149,7 @@ h1 {
     background-image: none;
 }
 button {
+    
     width: 300px;
     height: 50px;
     border-radius:10px;
@@ -137,6 +158,7 @@ button {
 .ticket-button {
     background-color:#B9CBEE;
 }
+
 .teacher-button {
     background-color:#CBC41B;
 }
@@ -146,54 +168,129 @@ button {
 .exhibition-button {
     background-color:#E1D6CD;
 }
+
 .events-button {
     background-color:#D380C3;
 }
-.news-button {
-    text-align:center;
-    background-color:#E4AD9C;
-    width:200px;
-    height:25px;
-    border-radius:6px;
-}
-.read-button {
-    text-align: center;
-    background-color:#A3E6EC;
-    width:200px;
-    height:25px;
-    border-radius: 6px;
+
+.item4 {
+    background-image:"../images/billetto-editorial-334686.jpg";
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns:  1fr  2fr 2fr;
-}
-.itme {
-    flex-direction: column;
-    align-items:center;
-    justify-content:space-between;
-    flex-wrap:nowrap;
-    flex-grow:unset;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.higher-item {
-    margin-top: 0px;
-    margin-bottom:10px;
-    padding-top: 0%;
-}
 .museum {
-    height: 300px;
-    min-width: 100%;
+    width: cover;
+    height:fit-content;
 }
 
 
 h2 {
     background-color:#D380C3;
     color:black;
+    padding:20px;
 }
 
-   
+
+p {
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width:600px;
+    width:300px;
     
+
+}
+
+.man {
+    height: 500px;
+    width: 300px;
+    margin-right: 20px;
+    position: relative center;
+}
+.science {
+    height: 250px;
+    width: 500px;
+}
+.moon {
+    min-width:100%;
+    height: 200px;
+}
+.drop {
+    height: 500px;
+    width: 400px;
+    margin-right: 20px;
+}
+.teacher {
+    height: 500px;
+    width: 500px;
+    margin-right: 20px;
+}
+    
+.keyhole {
+    height: 500px;
+    width: 500px;
+    margin-right: 20px;
+}
+.star {
+    width: 100% cover;
+}
+.newton {
+    height: 500px;
+    width:400px;
+    margin-right: 20px;
+}
+.boy {
+    height: 600px;
+    width: 500px;
+    margin-right: 20px;
+}
+.star {
+    width:100%;
+    height: 150px;;
+}
+.skull {
+    height: 500px;
+    width: 700px;
+    margin: 20px;
+}
+.elephant {
+    height: 700px;
+    width: 500px;
+    margin: 20px;
+}
+.climb {
+    height: 600px;
+    width: 1000px;
+    margin: 20px;
+}
+.dinosaur {
+    height: 700px;
+    width: 500px;
+    margin: 20px;
+}
+.child {
+    height: 200px;
+    width: 700px;
+    margin: 20px;
+}
+.rocket {
+    max-width:600px;
+}
+.cosmology {
+    background-color:#E9918B;
+    text-align: center;
+}
+.evolution {
+    background-color:#CBC41B;
+    text-align: center;
+}
+.biology {
+    background-color:#F8BB46;
+    text-align: center;
+}
+.robotica {
+    background-color:#CE9FDE;
+    text-align: center;
+}
+.ecology {
+    background-color:#F89E5D;
+    text-align: center;
+}
