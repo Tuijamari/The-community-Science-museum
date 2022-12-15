@@ -30,6 +30,7 @@ body {
    color:#D380C3;
    width: 200px;
    height: 50px;
+   margin-left: 100px;
 }
 
 #menu-checkbox:checked ~ nav {
@@ -98,32 +99,16 @@ h1 {
     display: flex;
     margin-left: 400px;
 }
-img {
-    display:flex;
-}
+
     
 
-img {
-    background-image: url (;
+section {
+    background-image: url("../images/GALAXY\ TO\ MUSEUM.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    max-width: 600PX;
+    max-height: 500px;
 }
-
-
-
-.news-button {
-    text-align:center;
-    background-color:#E4AD9C;
-    width:200px;
-    height:25px;
-    border-radius:6px;
-}
-.read-button {
-    text-align: center;
-    background-color:#A3E6EC;
-    width:200px;
-    height:25px;
-    border-radius: 6px;
-}
-
 
 .astronaut {
     background-image:"../images/andrew-ruiz-348421.jpg";
@@ -162,28 +147,13 @@ button {
     width: 300px;
     height: 50px;
     border-radius:10px;
-    
+    background-color:#FFB154;
 }
 .ticket-button {
-    background-color:#B9CBEE;
-}
-
-.teacher-button {
-    background-color:#CBC41B;
-}
-.kids-button {
-    background-color:#F89E5D;
-}
-.exhibition-button {
-    background-color:#E1D6CD;
-}
-
-.events-button {
     background-color:#D380C3;
-}
-
-.item4 {
-    background-image:"../images/billetto-editorial-334686.jpg";
+    color:black;
+    text-align: center;
+    text-decoration: solid;
 }
 
 .museum {
@@ -202,7 +172,7 @@ h2 {
 
 p {
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 700px;
     max-width:600px;
     width:300px;
     position: relative;
